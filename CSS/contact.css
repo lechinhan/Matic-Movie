@@ -1,0 +1,119 @@
+.contact__main {
+    position: relative;
+    z-index: 1;
+}
+
+.background__wrapper {
+    position: absolute;
+    /* background-image: url(../images/contact_bg.jpg);
+    background-size: 100% auto;
+    background-position: 0 40%; */
+    background-image: linear-gradient(to top right, #010165, #1bc3f1);
+    height: 100%;
+    width: 95%;
+    left: 2.5%;
+    z-index: -1;
+    border-radius: .75rem;
+    opacity: .65;
+}
+
+.contact__form {
+    position: relative;
+    color: black;
+    margin: 20px auto;
+    width: 90%;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control {
+    background-color: transparent !important;
+    border-radius: .5rem !important;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control:focus {
+    background-color: transparent;
+    color: white !important;
+}
+
+div.form_title h2 {
+    font-size: 60px;
+    font-weight: bold;
+    /* color: #021B79; */
+    color: #50ecf8;
+}
+
+div.form_title p {
+    font-size: 17px;
+    color: #43e9f5;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact_btn {
+    width: 70% !important;
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+
+.contact_btn:hover {
+    background-color: #021B79;
+    box-shadow: 3px 3px 5px 1px rgba(255, 255, 255, .6);
+}
+
+
+/* .content-bg {
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    position: fixed;
+    z-index: -1;
+    background-image: linear-gradient(to bottom left, #000046, #1CB5E0) !important;
+} */
+
+::-webkit-input-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+ :-moz-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+ ::-moz-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+:-ms-input-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+textarea#contact__message::-webkit-input-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+textarea#contact__message::-moz-placeholder {
+    opacity: .7;
+    color: white !important;
+}
+
+textarea#contact__message:-moz-placeholder {
+    color: white !important;
+    opacity: .7;
+}
+
+textarea#contact__message:-ms-input-placeholder {
+    color: white !important;
+    opacity: .7;
+}

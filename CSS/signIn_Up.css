@@ -1,0 +1,240 @@
+::placeholder {
+    color: black !important;
+    opacity: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#signInForm input,
+#signUpForm input,
+#signUpForm select,
+#signUpForm select option {
+    color: black !important;
+}
+
+.back_ground {
+    top: -13%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    /* opacity: .2; */
+    display: flex;
+    z-index: -1;
+}
+
+div.wrapper_header {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: .75rem;
+    opacity: .6;
+}
+
+div.wrapper {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 500px;
+    margin-left: 50%;
+    z-index: -1;
+    border-radius: .75rem;
+    opacity: .65;
+}
+
+.container__main {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#main #signInForm {
+    width: 500px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 50%;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+#main #signInForm #email,
+#password {
+    border: 1px solid #999;
+    border-radius: 18px;
+}
+
+#signInForm h2 {
+    display: flex;
+    color: rgb(79, 50, 50);
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#formName span {
+    color: black;
+}
+
+#signInForm input {
+    border-radius: .75rem;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 0 rgba(79, 57, 57, .5);
+}
+
+#main #hl_img {
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#signInForm {
+    border-radius: 0.7rem;
+    /* opacity: 0.3; */
+}
+
+#signInForm label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#signInForm p {
+    font-weight: bold;
+}
+
+#signInForm #forgot_suggest>a {
+    text-decoration: none;
+    color: red;
+}
+
+#forgot_suggest>a:hover {
+    text-decoration: none;
+    color: rgb(209, 0, 0);
+}
+
+#forgot_pass {
+    text-decoration: none;
+    color: red;
+}
+
+.remember span {
+    margin: 5px;
+    font-weight: bold;
+}
+
+div.social {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+a.social_links {
+    text-decoration: none !important;
+}
+
+a.social_links:hover {
+    color: #0F9D58;
+    transform: scale(1.07);
+    box-shadow: 3px 3px 3px 2px rgba(66, 103, 178, .5);
+}
+
+.social_links {
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45px;
+    border: 2px solid rgb(79, 57, 57);
+    border-radius: 1rem;
+    padding: 0 5px;
+    box-shadow: 3px 3px 3px 0 rgba(79, 57, 57, .5);
+    transition: transform .1s;
+}
+
+.social_links span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social img {
+    display: flex;
+    right: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+#signUpForm .form-label {
+    font-size: 14px;
+    color: black;
+}
+
+#policies {
+    font-size: 15px;
+}
+
+#signUp_form div.modal-content {
+    backdrop-filter: 2px;
+}
+
+#signUp_form input:focus {
+    box-shadow: 0 0 0 4px rgba(91, 45, 30, .23);
+    border: 1px solid rgb(91, 45, 30);
+}
+
+#policies a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 42, 42);
+}
+
+#policies a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#forgot_pass a {
+    text-decoration: none;
+    color: red;
+}
+
+.signIn_btn {
+    border-radius: .75rem;
+    width: 90%;
+    color: rgb(227, 226, 226);
+    background: rgb(79, 57, 57);
+    box-shadow: 3px 3px 3px 0 rgba(79, 57, 57, .5);
+}
+
+.signIn_btn:hover {
+    color: rgb(189, 189, 189);
+    box-shadow: 0px 0px 3px 5px rgba(79, 57, 57, .3);
+}
+
+button#signUp_btn {
+    width: 80%;
+    background-color: rgb(58, 42, 42);
+    color: white;
+    border-radius: .75rem;
+    box-shadow: 3px 3px 3px 0 rgba(79, 57, 57, .5);
+}
+
+button#signUp_btn:hover {
+    color: rgb(185, 185, 185);
+    box-shadow: 0 0 4px 4px rgba(79, 57, 57, .5);
+}
+
+.alert-danger {
+    margin-bottom: 5px;
+    padding: 8px;
+}
