@@ -1,0 +1,7 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "facebook/graph-sdk": "^5.0",
+        "google/apiclient": "^2.0"
+    }
+}
