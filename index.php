@@ -8,11 +8,11 @@ if (isset($_SESSION['isLogged']) && $_SESSION['isLogged'] == 1) {
         <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11;">
             <div id="toast_logIn" class="toast" role="alert" aria-live="assertive" aria-atomic="true" >
                 <div class="toast-header bg-success text-light">
-                    <strong class="me-auto">Welcome back, ' . $_SESSION['s_name'] . '!</strong>
+                    <strong class="me-auto">Welcome, ' . $_SESSION['s_name'] . '!</strong>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
                 </div>
                 <div class="toast-body">
-                    We are glad to welcome you back. <br>
+                    We are glad to see you back. <br>
                     You have logged in via your ' . $_SESSION['log_method'] . ' Account
                 </div>
             </div>
